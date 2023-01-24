@@ -1,10 +1,11 @@
 ---
 name: deploy-bootstrap-cli
-
+#comment
 on:
     push:
         branches:
-            - main
+            #- main
+            - none
 
 jobs:
     bootstrap_cdf:
